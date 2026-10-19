@@ -1,0 +1,26 @@
+LIBRETA GEOLÓGICA DIGITAL — PAQUETE COMPLETO PARA GITHUB PAGES
+
+1. Descomprime este ZIP en tu computadora.
+2. Entra al repositorio: https://github.com/klausbvll2000/LIBRETA-DE-CAMPO-
+3. En la RAÍZ del repositorio, sube estos CINCO archivos (NO la carpeta contenedora):
+   index.html
+   manifest.json
+   service-worker.js
+   icon-192.png
+   icon-512.png
+4. Confirma con Commit changes. Si existen archivos con el mismo nombre, reemplázalos mediante la interfaz de GitHub.
+5. En Settings > Pages usa Deploy from a branch, main, /(root).
+6. En Actions espera el check verde del despliegue.
+7. Comprueba en Chrome: https://klausbvll2000.github.io/LIBRETA-DE-CAMPO-/
+8. En Android abre Chrome > menú ⋮ > Añadir a pantalla de inicio > Instalar (si está disponible).
+
+COMPROBACIONES:
+https://klausbvll2000.github.io/LIBRETA-DE-CAMPO-/manifest.json
+https://klausbvll2000.github.io/LIBRETA-DE-CAMPO-/icon-192.png
+
+Si sigue mostrando la versión antigua, cierra la pestaña y vuelve a abrirla con conexión.
+Si Chrome no ofrece instalar, verifica las rutas y el manifiesto desde DevTools > Application > Manifest en una PC.
+
+IMPORTANTE: Antes de reemplazar la versión anterior, exporta respaldo JSON de tus estaciones.
+El almacenamiento local no se sincroniza entre dispositivos y puede variar entre navegador y app instalada.
+El modo sin conexión necesita una primera carga correcta con internet.
